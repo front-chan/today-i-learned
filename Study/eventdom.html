@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event 활용</title>
+    <style>
+      #mouse-event-box {
+        width: 700px;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      span {
+        text-align: center;
+        border: 3px solid red;
+        margin: 20px;
+        padding: 10px 20px;
+      }
+      /* .context-menu {
+        color: red;
+      } */
+    </style>
+    <script src="eventdom.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <label for="input-1">input-1</label>
+      <input id="input-1" type="text" />
+      <label for="input-2">input-2</label>
+      <input id="input-2" type="text" />
+      <label for="input-3">input-3</label>
+      <input id="input-3" type="text" />
+    </div>
+    <hr />
+    <div id="mouse-event-box">
+      <span class="click">Click</span>
+      <span>DblClick</span>
+      <span>MouseDown</span>
+      <span>MouseUp</span>
+      <span>MouseMove</span>
+      <span class="mouse-over">MouseOver</span>
+      <span>MouseOut</span>
+      <span>MouseEnter</span>
+      <span>MouseLeave</span>
+      <span class="context-menu">ContextMenu</span>
+      <hr />
+    </div>
+    <script></script>
+    <!-- <script>
+      const contextMenu = document.querySelector(".context-menu");
+      contextMenu.addEventListener("contextmenu", () => {
+        alert("복제 금지!!!!");
+      });
+    </script> -->
+  </body>
+</html>
