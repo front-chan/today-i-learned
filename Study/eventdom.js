@@ -17,6 +17,13 @@ inputThree.addEventListener("keyup", () => {
   console.log(inputThree.value);
 });
 
+let span2 = document.createElement("span");
+span2.textContent = "contextmenu";
+span2.classList.add("context-menu-2");
+mouseEventBox.append(span2);
+
+// 함수 안에 지정해서 오류 (null) 발생
+/*
 document.body.onload = addElement;
 
 function addElement() {
@@ -33,6 +40,7 @@ function addElement() {
   mouseEventBox.append(span2);
   // mouseEventBox.append(h3);
 }
+*/
 
 mouseEventBox.style.display = "flex";
 
@@ -60,6 +68,10 @@ const lastChildSpan = document.querySelector("span:last-child");
 console.dir(lastChildSpan);
 console.dir(contextMenu2);
 
-lastChildSpan.addEventListener("contextmenu", () => {
+// setTimeout(() => {
+//   console.log(contextMenu2);
+// }, 1000);
+
+contextMenu2.addEventListener("contextmenu", () => {
   alert("복제 금지!!!!!!");
 });
