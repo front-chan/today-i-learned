@@ -1,4 +1,4 @@
-#useEffect
+# useEffect
 
 React Component가 렌더링이 될 때마다 특정 작업을 수행할 수 있게 하는 hook
 어떤 화면이 그려지는 것을 렌더링이라고 하는데 어떤 Component가 화면을 보여줬을 때 무언가를 실행하고자 할 때 사용하게 된다
