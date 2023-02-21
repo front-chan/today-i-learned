@@ -30,7 +30,7 @@
 -   개념
     어떤 자원에 대해 CRUD(Create / Read / Update / Delete) 연산을 수행하기 위해 URI(resource)로 GET / POST 등의 방식(Method)를 사용하여 요청을 보내며, 요청을 위한 자원은 특정한 형태로 표현한다.<br />
 
-    > 💡 URL : Uniform Resource Locator 로 인터넷 상 자원의 위치
+    > 💡 URL : Uniform Resource Locator 로 인터넷 상 자원의 위치<br />
     > URI : Uniform Resource Identifier로 인터넷 상의 자원을 식별하기 위한 문자열의 구성
 
 -   구성 요소
