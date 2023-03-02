@@ -1,4 +1,4 @@
-## position을 사용법
+## position 사용법
 
 `Position`은 2차원과 3차원을 결정짓는 요소이다.
 
