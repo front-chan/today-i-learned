@@ -1,6 +1,6 @@
 # HTTP API VS REST API
 
--   이해한 내용
+-   이해한 내용<br />
     HTTP API 안에 REST API가 포함되어 있는 느낌  
     HTTP API는 서버와 클라이언트를 연결하는 통신 방식에 해당하는데 REST API 도 서버와 클라이언트를 연결하는 통신 방식인 HTTP 프로토콜을 사용하기 때문이다  
     `/api/user/login` 같은 URI를 HTTP 메서드(GET, POST)를 통해 통신하므로 어떻게 보면 같은 의미이지만 깊이 있게 생각한다면 다른 의미이긴 하다  
