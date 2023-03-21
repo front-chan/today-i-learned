@@ -10,4 +10,4 @@
 
 [참고한 문서 \_ HTTP API VS REST API](https://www.inflearn.com/questions/126743/http-api-vs-rest-api)
 
-<img src="https://cdn.discordapp.com/attachments/1037267111585792020/1087776864774410311/httpapi_restapi.png" />
+<img src="https://cdn.discordapp.com/attachments/1037267111585792020/1087777282074087514/httpapi_restapi.png" />
