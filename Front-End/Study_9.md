@@ -7,4 +7,4 @@
 `마운트`는 DOM이 생성되고 웹 브라우저 상에서 나타나는 것이고 `언마운트`는 반대로 DOM에서 제거되는 것을 뜻한다.  
 `업데이트`부분은 props가 바뀔 때, state가 변경될 때, 부모 컴포넌트가 리렌더링될 때, 강제로 렌더링을 트리거할 때이다.
 
-<img src="https://cdn.discordapp.com/attachments/1037267111585792020/1088410453375463424/lifecycle.png" />
+<img src="https://cdn.discordapp.com/attachments/1037267111585792020/1088411117048569936/lifecycle.png" />
