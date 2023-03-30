@@ -52,23 +52,25 @@ let str = "Hello! My name is Chan! Welcome chan's github.";
 const reg = /Chan/;
 ```
 
--   `console.log(reg.exec(str));`
+-   `console.log(reg.exec(str));`<br>
     ![exec](https://cdn.discordapp.com/attachments/1037267111585792020/1091103036547551272/2023-03-31_5.53.46.png)
--   `console.log(reg.test(str));`
+
+-   `console.log(reg.test(str));`<br>
     ![test](https://cdn.discordapp.com/attachments/1037267111585792020/1091103623230005298/2023-03-31_5.56.07.png)
--   `console.log(str.match(reg));`
+
+-   `console.log(str.match(reg));`<br>
     ![match](https://cdn.discordapp.com/attachments/1037267111585792020/1091104406117818388/2023-03-31_5.59.14.png)  
     🚨 `match`의 경우 `reg.match(str)`이 아닌 `str.match(reg)`를 사용하는 이유는 `String` 객체 내장 함수이기 때문이다.  
     위에서 설명했듯이 `exec()`메서드와 동일한 기능을 하며 결과값도 같다.
 
--   `console.log(str.search(reg));`
+-   `console.log(str.search(reg));`<br>
     ![search](https://cdn.discordapp.com/attachments/1037267111585792020/1091107057027006535/2023-03-31_6.09.44.png)
--   `console.log(str.replace(reg, 'Judy'))`;
+-   `console.log(str.replace(reg, 'Judy'))`;<br>
     ![replace](https://cdn.discordapp.com/attachments/1037267111585792020/1091108622915870720/2023-03-31_6.15.59.png)  
     🚨 `replace`의 경우 두번째 `parameter`로 변경할 값을 지정해주어야 한다.  
-    만약 대응되는 문자열이 없을 경우 `str` 변수에 있는 문자열을 그대로 출력한다.  
+    만약 대응되는 문자열이 없을 경우 `str` 변수에 있는 문자열을 그대로 출력한다.
 
--   `console.log(str.split(reg));`
+-   `console.log(str.split(reg));`<br>
     ![split](https://cdn.discordapp.com/attachments/1037267111585792020/1091109514209669250/2023-03-31_6.19.32.png)  
     🚨 `split`의 경우 대응되는 문자열을 기준으로 나누어 배열로 반환한다.  
     대응되는 문자열이 없을 경우 `str` 변수에 있는 문자열을 그대로 담아 배열로 반환한다.
